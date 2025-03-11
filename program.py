@@ -88,10 +88,10 @@ monster_syurui_dic = {
                       "儀式/モンスター":"儀式",
                       "シンクロ/ペンデュラム/効果":"シンクロ/ペンデュラム",
                       "ペンデュラム/通常/モンスター":"ペンデュラム",
-                      "通常/モンスター":"通常"
+                      "通常/モンスター":"通常",
+                      "儀式/ペンデュラム/効果":"儀式"
                       }
-"儀式/ペンデュラム/効果"
-"効果/モンスター"
+
 ##zokusei wakeru syori
 df = pd.read_csv('./work/01_card_name.txt', names=('card','ruby','attribute1','attribute2','effect'))
 print (df)
