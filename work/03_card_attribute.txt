@@ -1,0 +1,32 @@
+attribute_icon_dark.png" alt="闇属性" title="闇属性" style="position: relative;">	image/parts/icon_level.png" alt="レベル" title="レベル" style="position: relative;">
+attribute_icon_spell.png" alt="魔法" title="魔法" style="position: relative;">
+attribute_icon_trap.png" alt="罠" title="罠" style="position: relative;">
+attribute_icon_water.png" alt="水属性" title="水属性" style="position: relative;">	image/parts/icon_level.png" alt="レベル" title="レベル" style="position: relative;">
+attribute_icon_spell.png" alt="魔法" title="魔法" style="position: relative;">	image/parts/effect/effect_icon_quickplay.png" alt="速攻" title="速攻" style="position: relative;">
+attribute_icon_spell.png" alt="魔法" title="魔法" style="position: relative;">
+attribute_icon_light.png" alt="光属性" title="光属性" style="position: relative;">	image/parts/icon_level.png" alt="レベル" title="レベル" style="position: relative;">
+attribute_icon_light.png" alt="光属性" title="光属性" style="position: relative;">	image/parts/icon_level.png" alt="レベル" title="レベル" style="position: relative;">
+attribute_icon_spell.png" alt="魔法" title="魔法" style="position: relative;">	image/parts/effect/effect_icon_field.png" alt="フィールド" title="フィールド" style="position: relative;">
+attribute_icon_water.png" alt="水属性" title="水属性" style="position: relative;">	image/parts/icon_rank.png" alt="ランク" title="ランク" style="position: relative;">
+attribute_icon_light.png" alt="光属性" title="光属性" style="position: relative;">	image/parts/icon_rank.png" alt="ランク" title="ランク" style="position: relative;">
+attribute_icon_spell.png" alt="魔法" title="魔法" style="position: relative;">
+attribute_icon_spell.png" alt="魔法" title="魔法" style="position: relative;">	image/parts/effect/effect_icon_quickplay.png" alt="速攻" title="速攻" style="position: relative;">
+attribute_icon_dark.png" alt="闇属性" title="闇属性" style="position: relative;">	image/parts/icon_level.png" alt="レベル" title="レベル" style="position: relative;">	image/parts/icon_pendulum.png" alt="ペンデュラムスケール" title="ペンデュラムスケール" style="position: relative;">
+attribute_icon_dark.png" alt="闇属性" title="闇属性" style="position: relative;">	image/parts/icon_level.png" alt="レベル" title="レベル" style="position: relative;">	image/parts/icon_pendulum.png" alt="ペンデュラムスケール" title="ペンデュラムスケール" style="position: relative;">
+attribute_icon_dark.png" alt="闇属性" title="闇属性" style="position: relative;">	image/parts/icon_level.png" alt="レベル" title="レベル" style="position: relative;">	image/parts/icon_pendulum.png" alt="ペンデュラムスケール" title="ペンデュラムスケール" style="position: relative;">
+attribute_icon_dark.png" alt="闇属性" title="闇属性" style="position: relative;">	image/parts/icon_level.png" alt="レベル" title="レベル" style="position: relative;">
+attribute_icon_fire.png" alt="炎属性" title="炎属性" style="position: relative;">	image/parts/icon_level.png" alt="レベル" title="レベル" style="position: relative;">
+attribute_icon_spell.png" alt="魔法" title="魔法" style="position: relative;">	image/parts/effect/effect_icon_quickplay.png" alt="速攻" title="速攻" style="position: relative;">
+attribute_icon_spell.png" alt="魔法" title="魔法" style="position: relative;">
+attribute_icon_dark.png" alt="闇属性" title="闇属性" style="position: relative;">	image/parts/icon_level.png" alt="レベル" title="レベル" style="position: relative;">
+attribute_icon_earth.png" alt="地属性" title="地属性" style="position: relative;">	image/parts/icon_level.png" alt="レベル" title="レベル" style="position: relative;">
+attribute_icon_spell.png" alt="魔法" title="魔法" style="position: relative;">	image/parts/effect/effect_icon_continuous.png" alt="永続" title="永続" style="position: relative;">
+attribute_icon_water.png" alt="水属性" title="水属性" style="position: relative;">	image/parts/icon_level.png" alt="レベル" title="レベル" style="position: relative;">
+attribute_icon_earth.png" alt="地属性" title="地属性" style="position: relative;">	image/parts/icon_level.png" alt="レベル" title="レベル" style="position: relative;">
+attribute_icon_fire.png" alt="炎属性" title="炎属性" style="position: relative;">	image/parts/icon_rank.png" alt="ランク" title="ランク" style="position: relative;">
+attribute_icon_earth.png" alt="地属性" title="地属性" style="position: relative;">	image/parts/icon_level.png" alt="レベル" title="レベル" style="position: relative;">	image/parts/icon_pendulum.png" alt="ペンデュラムスケール" title="ペンデュラムスケール" style="position: relative;">
+attribute_icon_dark.png" alt="闇属性" title="闇属性" style="position: relative;">	image/parts/link_pc/link8462.png" alt="リンク" title="リンク" style="position: relative;">
+attribute_icon_light.png" alt="光属性" title="光属性" style="position: relative;">	image/parts/link_pc/link89.png" alt="リンク" title="リンク" style="position: relative;">
+attribute_icon_spell.png" alt="魔法" title="魔法" style="position: relative;">	image/parts/effect/effect_icon_quickplay.png" alt="速攻" title="速攻" style="position: relative;">
+attribute_icon_spell.png" alt="魔法" title="魔法" style="position: relative;">
+attribute_icon_earth.png" alt="地属性" title="地属性" style="position: relative;">	image/parts/icon_level.png" alt="レベル" title="レベル" style="position: relative;">
