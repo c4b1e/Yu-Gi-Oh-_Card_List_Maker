@@ -1,24 +1,6 @@
 import pandas as pd
-#web クロール   #2
-#syori  #1
-#output #1
 
-#x x:数字　の順番で優先
-
-#web
-
-#syori
-    #input motoni tikan toka seikei
-    #input browser dev tool kara element copy
-    #zokusei1 zokusei2 syutyrokuwo pg de jissou sitai
-
-    #flow
-    #1 input wo sitei(2file 2024/12/24 jiten)
-    #2 set card name, ruby,(kind of card 1 and 2)
-#output
-    #excel ni syuturyoku yotei
-#jissou    
-#syori1
+## from homepage dev tool, create parts of list
 
 ##card name, ruby, attribute same pg
 with open("./input/01_cardInfo.txt",encoding='utf-8') as f:
