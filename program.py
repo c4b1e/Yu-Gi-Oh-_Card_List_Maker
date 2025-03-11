@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 
 ## from homepage dev tool, create parts of list
@@ -125,4 +126,8 @@ for index, row in df.iterrows():
         # print("df.iat[index,1] = monster_syurui_dic[zokusei2] or '不明な属性'で落ちる場合、dicにkeyの種族を設定して、valueいれて")
         df.iat[index,1] = monster_syurui_dic[zokusei2] or '不明な属性'
 df.to_csv('tmp.csv')
+
+if not os.path.isdir('./output'):
+    os.mkdir('./output')
+
 df.to_excel('./output/pandas_excel.xlsx',columns=['属性1','属性2','card','ruby'],index=False)
