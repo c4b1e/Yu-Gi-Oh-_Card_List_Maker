@@ -182,3 +182,9 @@ cython_debug/
 # windows excel file
 # outputfile, so not upload
 output/*.xlsx
+
+# this project debug file
+tmp.csv
+
+# except for 1st commit, no need commit
+work/*.*
