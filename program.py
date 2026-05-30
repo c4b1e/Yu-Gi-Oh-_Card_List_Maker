@@ -11,10 +11,17 @@ lines_srtip = [line.replace('\t','') for line in lines]
 
 ##save card name
 lines_card_name = [line for line in lines_srtip if '<span class="card_name">' in line]
-
 lines_card_name_replace = [item.replace('<span class="card_name">','') for item in lines_card_name]
 lines_card_name_replace = [item.replace('</span>','') for item in lines_card_name_replace]
+print(lines_card_name_replace)
 
+# 2025/4/30 従来のやり方だとcard name が取得できなくなったため、改修
+if '\n' in lines_card_name_replace:
+    lines_card_name_replace = [
+    lines_srtip[i + 1]
+    for i, line in enumerate(lines_srtip)
+    if '<span class="card_name">' in line and i + 1 < len(lines_srtip)
+]
 
 with open("./work/01_card_name.txt",mode='w',encoding='utf-8') as f:
     f.writelines(lines_card_name_replace)
@@ -72,7 +79,8 @@ monster_syurui_dic = {
                       "シンクロ/ペンデュラム/効果":"シンクロ/ペンデュラム",
                       "ペンデュラム/通常/モンスター":"ペンデュラム",
                       "通常/モンスター":"通常",
-                      "儀式/ペンデュラム/効果":"儀式"
+                      "儀式/ペンデュラム/効果":"儀式/ペンデュラム",
+                      "融合/ペンデュラム/効果":"融合/ペンデュラム"
                       }
 
 ##zokusei wakeru syori
@@ -123,11 +131,13 @@ for index, row in df.iterrows():
         start_index = target.find('alt="')
         end_index =  target.find('" title=')
         zokusei2 = str(row['effect'])[start_index+len('alt="'):end_index]
+        zokusei2 = zokusei2.replace("／", "/")
         # print("df.iat[index,1] = monster_syurui_dic[zokusei2] or '不明な属性'で落ちる場合、dicにkeyの種族を設定して、valueいれて")
         df.iat[index,1] = monster_syurui_dic[zokusei2] or '不明な属性'
 df.to_csv('tmp.csv')
 
 if not os.path.isdir('./output'):
     os.mkdir('./output')
-
-df.to_excel('./output/pandas_excel.xlsx',columns=['属性1','属性2','card','ruby'],index=False)
+df.to_csv('./output/pandas_tsv.csv',columns=['属性1','属性2','card','ruby'],header=False,index=False,sep='\t')
+# なんか動かないからコメントアウト
+# df.to_excel('./output/pandas_excel.xlsx',columns=['属性1','属性2','card','ruby'],index=False)
